@@ -62,7 +62,7 @@
             <p>
                 <?php
                     $msg  = sprintf(__('The images folder %s is not writable on your server', 'newcorp'), WebThemes::newInstance()->getCurrentThemePath() ."images/" ) . ", " ;
-                    $msg .= __('OSClass can\'t upload logo image from the administration panel.', 'newcorp') ;
+                    $msg .= __('Osclass can\'t upload logo image from the administration panel.', 'newcorp') ;
                     $msg .= __('Please make the mentioned images folder writable.', 'newcorp') ;
                     echo $msg ;
                 ?>
